@@ -28,6 +28,23 @@
             ]
         },
         {
+            "id": "base44",
+            "name": "Base44",
+            "mainDomain": "base44.com",
+            "hosts": [
+                "base44.com"
+            ]
+        },
+        {
+            "id": "bfl",
+            "name": "Black Forest Labs",
+            "mainDomain": "bfl.ai",
+            "hosts": [
+                "bfl.ai",
+                "bfl.ml"
+            ]
+        },
+        {
             "id": "bolt",
             "name": "Bolt",
             "mainDomain": "bolt.new",
@@ -41,6 +58,24 @@
             "mainDomain": "caktus.ai",
             "hosts": [
                 "caktus.ai"
+            ]
+        },
+        {
+            "id": "candy",
+            "name": "Candy AI",
+            "mainDomain": "candy.ai",
+            "hosts": [
+                "candy.ai"
+            ]
+        },
+        {
+            "id": "chai",
+            "name": "Chai",
+            "mainDomain": "chai-research.com",
+            "hosts": [
+                "chai-research.com",
+                "chai.ml",
+                "chaiapp.com"
             ]
         },
         {
@@ -78,6 +113,22 @@
             ]
         },
         {
+            "id": "chatpdf",
+            "name": "ChatPDF",
+            "mainDomain": "chatpdf.com",
+            "hosts": [
+                "chatpdf.com"
+            ]
+        },
+        {
+            "id": "civitai",
+            "name": "Civitai",
+            "mainDomain": "civitai.com",
+            "hosts": [
+                "civitai.com"
+            ]
+        },
+        {
             "id": "claude",
             "name": "Claude",
             "mainDomain": "claude.ai",
@@ -93,6 +144,15 @@
             "mainDomain": "codeium.com",
             "hosts": [
                 "codeium.com"
+            ]
+        },
+        {
+            "id": "cohere",
+            "name": "Cohere",
+            "mainDomain": "cohere.com",
+            "hosts": [
+                "cohere.ai",
+                "cohere.com"
             ]
         },
         {
@@ -212,6 +272,14 @@
             ]
         },
         {
+            "id": "gamma",
+            "name": "Gamma",
+            "mainDomain": "gamma.app",
+            "hosts": [
+                "gamma.app"
+            ]
+        },
+        {
             "id": "gauth",
             "name": "Gauth",
             "mainDomain": "gauthmath.com",
@@ -291,11 +359,37 @@
             ]
         },
         {
+            "id": "heygen",
+            "name": "HeyGen",
+            "mainDomain": "heygen.com",
+            "hosts": [
+                "heygen.com"
+            ]
+        },
+        {
             "id": "higgsfield",
             "name": "Higgsfield",
             "mainDomain": "higgsfield.ai",
             "hosts": [
                 "higgsfield.ai"
+            ]
+        },
+        {
+            "id": "huggingface",
+            "name": "Hugging Face",
+            "mainDomain": "huggingface.co",
+            "hosts": [
+                "hf.co",
+                "hf.space",
+                "huggingface.co"
+            ]
+        },
+        {
+            "id": "humata",
+            "name": "Humata",
+            "mainDomain": "humata.ai",
+            "hosts": [
+                "humata.ai"
             ]
         },
         {
@@ -307,11 +401,28 @@
             ]
         },
         {
+            "id": "janitorai",
+            "name": "Janitor AI",
+            "mainDomain": "janitorai.com",
+            "hosts": [
+                "janitorai.com",
+                "janitorai.io"
+            ]
+        },
+        {
             "id": "jasper",
             "name": "Jasper",
             "mainDomain": "jasper.ai",
             "hosts": [
                 "jasper.ai"
+            ]
+        },
+        {
+            "id": "jenni",
+            "name": "Jenni",
+            "mainDomain": "jenni.ai",
+            "hosts": [
+                "jenni.ai"
             ]
         },
         {
@@ -321,6 +432,14 @@
             "hosts": [
                 "kimi.com",
                 "kimi.moonshot.cn"
+            ]
+        },
+        {
+            "id": "kindroid",
+            "name": "Kindroid",
+            "mainDomain": "kindroid.ai",
+            "hosts": [
+                "kindroid.ai"
             ]
         },
         {
@@ -346,6 +465,15 @@
             "mainDomain": "leonardo.ai",
             "hosts": [
                 "leonardo.ai"
+            ]
+        },
+        {
+            "id": "lmarena",
+            "name": "LMArena",
+            "mainDomain": "lmarena.ai",
+            "hosts": [
+                "lmarena.ai",
+                "lmsys.org"
             ]
         },
         {
@@ -409,12 +537,59 @@
             ]
         },
         {
+            "id": "minimax",
+            "name": "MiniMax",
+            "mainDomain": "minimax.io",
+            "hosts": [
+                "hailuoai.com",
+                "hailuoai.video",
+                "minimax.chat",
+                "minimax.io",
+                "minimaxi.com"
+            ]
+        },
+        {
             "id": "mistral",
             "name": "Mistral Le Chat",
             "mainDomain": "chat.mistral.ai",
             "hosts": [
                 "api.mistral.ai",
                 "chat.mistral.ai"
+            ]
+        },
+        {
+            "id": "monica",
+            "name": "Monica",
+            "mainDomain": "monica.im",
+            "hosts": [
+                "monica.im"
+            ]
+        },
+        {
+            "id": "muse",
+            "name": "Muse",
+            "mainDomain": "muse.ai",
+            "hosts": [
+                "ecto1usercontent.com",
+                "meta-agents-apps.workers.dev",
+                "metaaiusercontent.com",
+                "muse.ai"
+            ]
+        },
+        {
+            "id": "napkin",
+            "name": "Napkin",
+            "mainDomain": "napkin.ai",
+            "hosts": [
+                "napkin.ai"
+            ]
+        },
+        {
+            "id": "nomi",
+            "name": "Nomi",
+            "mainDomain": "nomi.ai",
+            "hosts": [
+                "nomi.ai"
             ]
         },
         {
@@ -495,11 +670,36 @@
             ]
         },
         {
+            "id": "pixverse",
+            "name": "PixVerse",
+            "mainDomain": "pixverse.ai",
+            "hosts": [
+                "pixverse.ai"
+            ]
+        },
+        {
+            "id": "playground",
+            "name": "Playground",
+            "mainDomain": "playground.com",
+            "hosts": [
+                "playground.com",
+                "playgroundai.com"
+            ]
+        },
+        {
             "id": "poe",
             "name": "Poe",
             "mainDomain": "poe.com",
             "hosts": [
                 "poe.com"
+            ]
+        },
+        {
+            "id": "quillbot",
+            "name": "QuillBot",
+            "mainDomain": "quillbot.com",
+            "hosts": [
+                "quillbot.com"
             ]
         },
         {
@@ -546,6 +746,14 @@
             ]
         },
         {
+            "id": "sider",
+            "name": "Sider",
+            "mainDomain": "sider.ai",
+            "hosts": [
+                "sider.ai"
+            ]
+        },
+        {
             "id": "sora",
             "name": "Sora",
             "mainDomain": "sora.com",
@@ -563,6 +771,23 @@
             ]
         },
         {
+            "id": "stability",
+            "name": "Stability AI",
+            "mainDomain": "stability.ai",
+            "hosts": [
+                "dreamstudio.ai",
+                "stability.ai"
+            ]
+        },
+        {
+            "id": "sudowrite",
+            "name": "Sudowrite",
+            "mainDomain": "sudowrite.com",
+            "hosts": [
+                "sudowrite.com"
+            ]
+        },
+        {
             "id": "suno",
             "name": "Suno",
             "mainDomain": "suno.com",
@@ -572,11 +797,28 @@
             ]
         },
         {
+            "id": "synthesia",
+            "name": "Synthesia",
+            "mainDomain": "synthesia.io",
+            "hosts": [
+                "synthesia.io"
+            ]
+        },
+        {
             "id": "tabnine",
             "name": "Tabnine",
             "mainDomain": "tabnine.com",
             "hosts": [
                 "tabnine.com"
+            ]
+        },
+        {
+            "id": "talkie",
+            "name": "Talkie",
+            "mainDomain": "talkie-ai.com",
+            "hosts": [
+                "talkie-ai.app",
+                "talkie-ai.com"
             ]
         },
         {
@@ -597,12 +839,30 @@
             ]
         },
         {
+            "id": "undetectable",
+            "name": "Undetectable AI",
+            "mainDomain": "undetectable.ai",
+            "hosts": [
+                "undetectable.ai"
+            ]
+        },
+        {
             "id": "v0",
             "name": "v0",
             "mainDomain": "v0.dev",
             "hosts": [
                 "v0.app",
                 "v0.dev"
+            ]
+        },
+        {
+            "id": "vidu",
+            "name": "Vidu",
+            "mainDomain": "vidu.com",
+            "hosts": [
+                "vidu.cn",
+                "vidu.com",
+                "vidu.studio"
             ]
         },
         {
@@ -635,6 +895,14 @@
             "mainDomain": "you.com",
             "hosts": [
                 "you.com"
+            ]
+        },
+        {
+            "id": "yuanbao",
+            "name": "Yuanbao",
+            "mainDomain": "yuanbao.tencent.com",
+            "hosts": [
+                "yuanbao.tencent.com"
             ]
         }
     ]

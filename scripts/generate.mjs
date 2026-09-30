@@ -9,7 +9,9 @@ import { mkdir, readFile, writeFile, readdir, unlink } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const SOURCE_URL = "https://nullgen.ai/api/ai-vendors";
+const CATALOG_URL = "https://nullgen.ai/api/ai-vendors";
+// Override for local builds against a not-yet-deployed catalog.
+const SOURCE_URL = process.env.SOURCE_URL ?? CATALOG_URL;
 const HOMEPAGE = "https://nullgen.ai";
 const REPO_URL = "https://github.com/nullgen-inc/ai-blocklist";
 const RAW_BASE = "https://raw.githubusercontent.com/nullgen-inc/ai-blocklist/main";
@@ -70,14 +72,26 @@ async function writeIfChanged(path, header, entries) {
     return true;
 }
 
+// Hosts files cannot match subdomains, so give apex entries a www. twin.
+function hostsFileEntries(hosts) {
+    const out = new Set();
+    for (const host of hosts) {
+        out.add(host);
+        if (host.split(".").length === 2) {
+            out.add(`www.${host}`);
+        }
+    }
+    return [...out].sort().map((host) => `0.0.0.0 ${host}`);
+}
+
 function hostsHeader(count, scope) {
     return [
         `# ${TITLE}${scope} — hosts file format`,
         `# ${count} entries · updated ${today}`,
-        `# Source: ${SOURCE_URL}`,
+        `# Source: ${CATALOG_URL}`,
         `# Project: ${REPO_URL}`,
         `# Maintained by Nullgen — ${HOMEPAGE}`,
-        `# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.`,
+        `# Hosts files match exact names only (www. twins included); use the AdGuard or domains list for full subdomain coverage.`,
     ];
 }
 
@@ -98,7 +112,7 @@ function domainsHeader(count, scope) {
     return [
         `# ${TITLE}${scope} — plain domain list (each entry also covers its subdomains)`,
         `# ${count} entries · updated ${today}`,
-        `# Source: ${SOURCE_URL}`,
+        `# Source: ${CATALOG_URL}`,
         `# Project: ${REPO_URL}`,
         `# Maintained by Nullgen — ${HOMEPAGE}`,
     ];
@@ -106,7 +120,7 @@ function domainsHeader(count, scope) {
 
 async function writeFormats(dir, base, hosts, scope) {
     const changed = await Promise.all([
-        writeIfChanged(join(dir, `${base}.hosts.txt`), hostsHeader(hosts.length, scope), hosts.map((host) => `0.0.0.0 ${host}`)),
+        writeIfChanged(join(dir, `${base}.hosts.txt`), hostsHeader(hostsFileEntries(hosts).length, scope), hostsFileEntries(hosts)),
         writeIfChanged(join(dir, `${base}.adguard.txt`), adguardHeader(hosts.length, scope), hosts.map((host) => `||${host}^`)),
         writeIfChanged(join(dir, `${base}.domains.txt`), domainsHeader(hosts.length, scope), hosts),
     ]);
@@ -115,7 +129,7 @@ async function writeFormats(dir, base, hosts, scope) {
 
 async function writeVendorsJson(vendors) {
     const path = join(listsDir, "vendors.json");
-    const next = JSON.stringify({ source: SOURCE_URL, homepage: HOMEPAGE, vendors }, null, 4) + "\n";
+    const next = JSON.stringify({ source: CATALOG_URL, homepage: HOMEPAGE, vendors }, null, 4) + "\n";
     let previous = null;
     try {
         previous = await readFile(path, "utf8");
@@ -166,6 +180,20 @@ async function updateReadme(vendors, hostCount) {
 
 const vendors = await fetchCatalog();
 const hosts = allHosts(vendors);
+
+// Refuse a catalog that shrank sharply: a partial API response or a stale
+// deploy must not wipe entries subscribers rely on. Set ALLOW_SHRINK=1 to
+// override for an intentional large removal.
+try {
+    const previous = JSON.parse(await readFile(join(listsDir, "vendors.json"), "utf8")).vendors.length;
+    if (vendors.length < previous * 0.9 && process.env.ALLOW_SHRINK !== "1") {
+        throw new Error(`Catalog shrank from ${previous} to ${vendors.length} vendors; refusing to regenerate (ALLOW_SHRINK=1 to override)`);
+    }
+} catch (error) {
+    if (error.code !== "ENOENT") {
+        throw error;
+    }
+}
 
 await mkdir(vendorsDir, { recursive: true });
 

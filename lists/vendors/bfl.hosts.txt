@@ -1,0 +1,11 @@
+# AI Blocklist — Black Forest Labs — hosts file format
+# 4 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only (www. twins included); use the AdGuard or domains list for full subdomain coverage.
+
+0.0.0.0 bfl.ai
+0.0.0.0 bfl.ml
+0.0.0.0 www.bfl.ai
+0.0.0.0 www.bfl.ml

@@ -1,0 +1,14 @@
+# AI Blocklist — Muse — hosts file format
+# 7 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only (www. twins included); use the AdGuard or domains list for full subdomain coverage.
+
+0.0.0.0 ecto1usercontent.com
+0.0.0.0 meta-agents-apps.workers.dev
+0.0.0.0 metaaiusercontent.com
+0.0.0.0 muse.ai
+0.0.0.0 www.ecto1usercontent.com
+0.0.0.0 www.metaaiusercontent.com
+0.0.0.0 www.muse.ai
