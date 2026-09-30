@@ -1,0 +1,11 @@
+# AI Blocklist — Google AI Studio — plain domain list (each entry also covers its subdomains)
+# 5 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+
+aiplatform.googleapis.com
+aistudio.google.com
+alkali.generativelanguage.googleapis.com
+alkalimakersuite-pa.clients6.google.com
+generativelanguage.googleapis.com

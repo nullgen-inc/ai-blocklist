@@ -1,0 +1,9 @@
+# AI Blocklist — Kling — hosts file format
+# 2 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 kling.ai
+0.0.0.0 klingai.com

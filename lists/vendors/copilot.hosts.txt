@@ -1,0 +1,11 @@
+# AI Blocklist — Microsoft Copilot — hosts file format
+# 4 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 copilot.cloud.microsoft
+0.0.0.0 copilot.microsoft.com
+0.0.0.0 m365.cloud.microsoft
+0.0.0.0 sydney.bing.com

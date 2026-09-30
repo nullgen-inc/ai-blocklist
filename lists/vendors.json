@@ -1,0 +1,641 @@
+{
+    "source": "https://nullgen.ai/api/ai-vendors",
+    "homepage": "https://nullgen.ai",
+    "vendors": [
+        {
+            "id": "firefly",
+            "name": "Adobe Firefly",
+            "mainDomain": "firefly.adobe.com",
+            "hosts": [
+                "firefly.adobe.com"
+            ]
+        },
+        {
+            "id": "amazon-q",
+            "name": "Amazon Q",
+            "mainDomain": "q.us-east-1.amazonaws.com",
+            "hosts": [
+                "codewhisperer.us-east-1.amazonaws.com",
+                "q.us-east-1.amazonaws.com"
+            ]
+        },
+        {
+            "id": "augment",
+            "name": "Augment",
+            "mainDomain": "augmentcode.com",
+            "hosts": [
+                "augmentcode.com"
+            ]
+        },
+        {
+            "id": "bolt",
+            "name": "Bolt",
+            "mainDomain": "bolt.new",
+            "hosts": [
+                "bolt.new"
+            ]
+        },
+        {
+            "id": "caktus",
+            "name": "Caktus",
+            "mainDomain": "caktus.ai",
+            "hosts": [
+                "caktus.ai"
+            ]
+        },
+        {
+            "id": "character",
+            "name": "Character.AI",
+            "mainDomain": "character.ai",
+            "hosts": [
+                "c.ai",
+                "character.ai"
+            ]
+        },
+        {
+            "id": "chatglm",
+            "name": "ChatGLM",
+            "mainDomain": "chatglm.cn",
+            "hosts": [
+                "chatglm.cn",
+                "z.ai"
+            ]
+        },
+        {
+            "id": "chatgpt",
+            "name": "ChatGPT",
+            "mainDomain": "chatgpt.com",
+            "hosts": [
+                "api.openai.com",
+                "auth.openai.com",
+                "auth0.openai.com",
+                "chat.openai.com",
+                "chatgpt.com",
+                "ios.chat.openai.com",
+                "oaistatic.com",
+                "oaiusercontent.com",
+                "platform.openai.com"
+            ]
+        },
+        {
+            "id": "claude",
+            "name": "Claude",
+            "mainDomain": "claude.ai",
+            "hosts": [
+                "api.anthropic.com",
+                "claude.ai",
+                "console.anthropic.com"
+            ]
+        },
+        {
+            "id": "codeium",
+            "name": "Codeium",
+            "mainDomain": "codeium.com",
+            "hosts": [
+                "codeium.com"
+            ]
+        },
+        {
+            "id": "consensus",
+            "name": "Consensus",
+            "mainDomain": "consensus.app",
+            "hosts": [
+                "consensus.app"
+            ]
+        },
+        {
+            "id": "continue",
+            "name": "Continue",
+            "mainDomain": "continue.dev",
+            "hosts": [
+                "continue.dev"
+            ]
+        },
+        {
+            "id": "copy-ai",
+            "name": "Copy.ai",
+            "mainDomain": "copy.ai",
+            "hosts": [
+                "copy.ai"
+            ]
+        },
+        {
+            "id": "cursor",
+            "name": "Cursor",
+            "mainDomain": "cursor.com",
+            "hosts": [
+                "cursor.com",
+                "cursor.sh"
+            ]
+        },
+        {
+            "id": "deepseek",
+            "name": "DeepSeek",
+            "mainDomain": "chat.deepseek.com",
+            "hosts": [
+                "chat.deepseek.com",
+                "deepseek.com"
+            ]
+        },
+        {
+            "id": "devin",
+            "name": "Devin",
+            "mainDomain": "devin.ai",
+            "hosts": [
+                "app.devin.ai",
+                "devin.ai"
+            ]
+        },
+        {
+            "id": "doubao",
+            "name": "Doubao",
+            "mainDomain": "doubao.com",
+            "hosts": [
+                "doubao.com"
+            ]
+        },
+        {
+            "id": "duck-ai",
+            "name": "Duck.ai",
+            "mainDomain": "duck.ai",
+            "hosts": [
+                "duck.ai"
+            ]
+        },
+        {
+            "id": "elevenlabs",
+            "name": "ElevenLabs",
+            "mainDomain": "elevenlabs.io",
+            "hosts": [
+                "elevenlabs.io"
+            ]
+        },
+        {
+            "id": "elicit",
+            "name": "Elicit",
+            "mainDomain": "elicit.com",
+            "hosts": [
+                "elicit.com"
+            ]
+        },
+        {
+            "id": "ernie",
+            "name": "ERNIE",
+            "mainDomain": "yiyan.baidu.com",
+            "hosts": [
+                "wenxin.baidu.com",
+                "yiyan.baidu.com"
+            ]
+        },
+        {
+            "id": "factory",
+            "name": "Factory",
+            "mainDomain": "factory.ai",
+            "hosts": [
+                "factory.ai"
+            ]
+        },
+        {
+            "id": "fireflies",
+            "name": "Fireflies",
+            "mainDomain": "fireflies.ai",
+            "hosts": [
+                "fireflies.ai"
+            ]
+        },
+        {
+            "id": "fireworks",
+            "name": "Fireworks",
+            "mainDomain": "fireworks.ai",
+            "hosts": [
+                "fireworks.ai"
+            ]
+        },
+        {
+            "id": "gauth",
+            "name": "Gauth",
+            "mainDomain": "gauthmath.com",
+            "hosts": [
+                "gauthmath.com"
+            ]
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "mainDomain": "gemini.google.com",
+            "hosts": [
+                "aiplatform.googleapis.com",
+                "alkali.generativelanguage.googleapis.com",
+                "appsgenaiserver-pa.clients6.google.com",
+                "assistant.google.com",
+                "assistant.googleapis.com",
+                "bard.google.com",
+                "gemini.google.com",
+                "gemini.gstatic.com",
+                "generativelanguage.googleapis.com",
+                "jnn-pa.googleapis.com",
+                "opa-pa.clients6.google.com",
+                "opa-pa.googleapis.com",
+                "pro.gemini.google.com",
+                "robinfrontend-pa.googleapis.com",
+                "waa-pa.clients6.google.com"
+            ]
+        },
+        {
+            "id": "genspark",
+            "name": "Genspark",
+            "mainDomain": "genspark.ai",
+            "hosts": [
+                "genspark.ai"
+            ]
+        },
+        {
+            "id": "github-copilot",
+            "name": "GitHub Copilot",
+            "mainDomain": "copilot.github.com",
+            "hosts": [
+                "copilot-proxy.githubusercontent.com",
+                "copilot.github.com",
+                "githubcopilot.com"
+            ]
+        },
+        {
+            "id": "google-ai-studio",
+            "name": "Google AI Studio",
+            "mainDomain": "aistudio.google.com",
+            "hosts": [
+                "aiplatform.googleapis.com",
+                "aistudio.google.com",
+                "alkali.generativelanguage.googleapis.com",
+                "alkalimakersuite-pa.clients6.google.com",
+                "generativelanguage.googleapis.com"
+            ]
+        },
+        {
+            "id": "grok",
+            "name": "Grok",
+            "mainDomain": "grok.com",
+            "hosts": [
+                "api.x.ai",
+                "grok.com",
+                "grok.x.ai"
+            ]
+        },
+        {
+            "id": "groq",
+            "name": "Groq",
+            "mainDomain": "groq.com",
+            "hosts": [
+                "console.groq.com",
+                "groq.com"
+            ]
+        },
+        {
+            "id": "higgsfield",
+            "name": "Higgsfield",
+            "mainDomain": "higgsfield.ai",
+            "hosts": [
+                "higgsfield.ai"
+            ]
+        },
+        {
+            "id": "ideogram",
+            "name": "Ideogram",
+            "mainDomain": "ideogram.ai",
+            "hosts": [
+                "ideogram.ai"
+            ]
+        },
+        {
+            "id": "jasper",
+            "name": "Jasper",
+            "mainDomain": "jasper.ai",
+            "hosts": [
+                "jasper.ai"
+            ]
+        },
+        {
+            "id": "kimi",
+            "name": "Kimi",
+            "mainDomain": "kimi.com",
+            "hosts": [
+                "kimi.com",
+                "kimi.moonshot.cn"
+            ]
+        },
+        {
+            "id": "kling",
+            "name": "Kling",
+            "mainDomain": "klingai.com",
+            "hosts": [
+                "kling.ai",
+                "klingai.com"
+            ]
+        },
+        {
+            "id": "krea",
+            "name": "Krea",
+            "mainDomain": "krea.ai",
+            "hosts": [
+                "krea.ai"
+            ]
+        },
+        {
+            "id": "leonardo",
+            "name": "Leonardo",
+            "mainDomain": "leonardo.ai",
+            "hosts": [
+                "leonardo.ai"
+            ]
+        },
+        {
+            "id": "lovable",
+            "name": "Lovable",
+            "mainDomain": "lovable.dev",
+            "hosts": [
+                "lovable.dev"
+            ]
+        },
+        {
+            "id": "luma",
+            "name": "Luma",
+            "mainDomain": "lumalabs.ai",
+            "hosts": [
+                "lumalabs.ai"
+            ]
+        },
+        {
+            "id": "magnific",
+            "name": "Magnific",
+            "mainDomain": "magnific.ai",
+            "hosts": [
+                "magnific.ai",
+                "magnific.com"
+            ]
+        },
+        {
+            "id": "manus",
+            "name": "Manus",
+            "mainDomain": "manus.im",
+            "hosts": [
+                "manus.im"
+            ]
+        },
+        {
+            "id": "meta-ai",
+            "name": "Meta AI",
+            "mainDomain": "meta.ai",
+            "hosts": [
+                "meta.ai"
+            ]
+        },
+        {
+            "id": "copilot",
+            "name": "Microsoft Copilot",
+            "mainDomain": "copilot.microsoft.com",
+            "hosts": [
+                "copilot.cloud.microsoft",
+                "copilot.microsoft.com",
+                "m365.cloud.microsoft",
+                "sydney.bing.com"
+            ]
+        },
+        {
+            "id": "midjourney",
+            "name": "Midjourney",
+            "mainDomain": "midjourney.com",
+            "hosts": [
+                "midjourney.com"
+            ]
+        },
+        {
+            "id": "mistral",
+            "name": "Mistral Le Chat",
+            "mainDomain": "chat.mistral.ai",
+            "hosts": [
+                "api.mistral.ai",
+                "chat.mistral.ai"
+            ]
+        },
+        {
+            "id": "notebooklm",
+            "name": "NotebookLM",
+            "mainDomain": "notebooklm.google.com",
+            "hosts": [
+                "notebook.google.com",
+                "notebooklm-pa.googleapis.com",
+                "notebooklm.google.com",
+                "tailwind-pa.googleapis.com"
+            ]
+        },
+        {
+            "id": "novelai",
+            "name": "NovelAI",
+            "mainDomain": "novelai.net",
+            "hosts": [
+                "novelai.net"
+            ]
+        },
+        {
+            "id": "openrouter",
+            "name": "OpenRouter",
+            "mainDomain": "openrouter.ai",
+            "hosts": [
+                "openrouter.ai"
+            ]
+        },
+        {
+            "id": "otter",
+            "name": "Otter",
+            "mainDomain": "otter.ai",
+            "hosts": [
+                "otter.ai"
+            ]
+        },
+        {
+            "id": "perplexity",
+            "name": "Perplexity",
+            "mainDomain": "perplexity.ai",
+            "hosts": [
+                "perplexity.ai",
+                "pplx.ai"
+            ]
+        },
+        {
+            "id": "phind",
+            "name": "Phind",
+            "mainDomain": "phind.com",
+            "hosts": [
+                "phind.com"
+            ]
+        },
+        {
+            "id": "photomath",
+            "name": "Photomath",
+            "mainDomain": "photomath.com",
+            "hosts": [
+                "photomath.com",
+                "photomath.net"
+            ]
+        },
+        {
+            "id": "pi",
+            "name": "Pi",
+            "mainDomain": "pi.ai",
+            "hosts": [
+                "pi.ai"
+            ]
+        },
+        {
+            "id": "pika",
+            "name": "Pika",
+            "mainDomain": "pika.art",
+            "hosts": [
+                "pika.art"
+            ]
+        },
+        {
+            "id": "poe",
+            "name": "Poe",
+            "mainDomain": "poe.com",
+            "hosts": [
+                "poe.com"
+            ]
+        },
+        {
+            "id": "qwen",
+            "name": "Qwen",
+            "mainDomain": "chat.qwen.ai",
+            "hosts": [
+                "chat.qwen.ai",
+                "qwen.ai"
+            ]
+        },
+        {
+            "id": "recraft",
+            "name": "Recraft",
+            "mainDomain": "recraft.ai",
+            "hosts": [
+                "recraft.ai"
+            ]
+        },
+        {
+            "id": "replika",
+            "name": "Replika",
+            "mainDomain": "replika.com",
+            "hosts": [
+                "replika.ai",
+                "replika.com"
+            ]
+        },
+        {
+            "id": "runway",
+            "name": "Runway",
+            "mainDomain": "runwayml.com",
+            "hosts": [
+                "runway.com",
+                "runwayml.com"
+            ]
+        },
+        {
+            "id": "rytr",
+            "name": "Rytr",
+            "mainDomain": "rytr.me",
+            "hosts": [
+                "rytr.me"
+            ]
+        },
+        {
+            "id": "sora",
+            "name": "Sora",
+            "mainDomain": "sora.com",
+            "hosts": [
+                "sora.chatgpt.com",
+                "sora.com"
+            ]
+        },
+        {
+            "id": "cody",
+            "name": "Sourcegraph Cody",
+            "mainDomain": "sourcegraph.com",
+            "hosts": [
+                "sourcegraph.com"
+            ]
+        },
+        {
+            "id": "suno",
+            "name": "Suno",
+            "mainDomain": "suno.com",
+            "hosts": [
+                "suno.ai",
+                "suno.com"
+            ]
+        },
+        {
+            "id": "tabnine",
+            "name": "Tabnine",
+            "mainDomain": "tabnine.com",
+            "hosts": [
+                "tabnine.com"
+            ]
+        },
+        {
+            "id": "together",
+            "name": "Together",
+            "mainDomain": "chat.together.ai",
+            "hosts": [
+                "api.together.xyz",
+                "chat.together.ai"
+            ]
+        },
+        {
+            "id": "udio",
+            "name": "Udio",
+            "mainDomain": "udio.com",
+            "hosts": [
+                "udio.com"
+            ]
+        },
+        {
+            "id": "v0",
+            "name": "v0",
+            "mainDomain": "v0.dev",
+            "hosts": [
+                "v0.app",
+                "v0.dev"
+            ]
+        },
+        {
+            "id": "windsurf",
+            "name": "Windsurf",
+            "mainDomain": "windsurf.com",
+            "hosts": [
+                "windsurf.com"
+            ]
+        },
+        {
+            "id": "wordtune",
+            "name": "Wordtune",
+            "mainDomain": "wordtune.com",
+            "hosts": [
+                "wordtune.com"
+            ]
+        },
+        {
+            "id": "writesonic",
+            "name": "Writesonic",
+            "mainDomain": "writesonic.com",
+            "hosts": [
+                "writesonic.com"
+            ]
+        },
+        {
+            "id": "you",
+            "name": "You.com",
+            "mainDomain": "you.com",
+            "hosts": [
+                "you.com"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+# AI Blocklist — NotebookLM — plain domain list (each entry also covers its subdomains)
+# 4 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+
+notebook.google.com
+notebooklm-pa.googleapis.com
+notebooklm.google.com
+tailwind-pa.googleapis.com

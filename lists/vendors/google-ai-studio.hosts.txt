@@ -1,0 +1,12 @@
+# AI Blocklist — Google AI Studio — hosts file format
+# 5 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 aiplatform.googleapis.com
+0.0.0.0 aistudio.google.com
+0.0.0.0 alkali.generativelanguage.googleapis.com
+0.0.0.0 alkalimakersuite-pa.clients6.google.com
+0.0.0.0 generativelanguage.googleapis.com

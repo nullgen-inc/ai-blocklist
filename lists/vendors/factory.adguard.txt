@@ -1,0 +1,10 @@
+! Title: AI Blocklist — Factory
+! Description: Known generative-AI websites, apps, and API hosts, maintained by Nullgen. Excludes shared apexes (google.com, microsoft.com) that would break unrelated products.
+! Homepage: https://nullgen.ai
+! Source: https://github.com/nullgen-inc/ai-blocklist
+! License: CC0-1.0
+! Last modified: 2026-09-30
+! Expires: 1 day
+! Entries: 1
+
+||factory.ai^

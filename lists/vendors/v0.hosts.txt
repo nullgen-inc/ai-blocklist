@@ -1,0 +1,9 @@
+# AI Blocklist — v0 — hosts file format
+# 2 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 v0.app
+0.0.0.0 v0.dev

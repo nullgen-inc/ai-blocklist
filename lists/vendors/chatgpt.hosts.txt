@@ -1,0 +1,16 @@
+# AI Blocklist — ChatGPT — hosts file format
+# 9 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 api.openai.com
+0.0.0.0 auth.openai.com
+0.0.0.0 auth0.openai.com
+0.0.0.0 chat.openai.com
+0.0.0.0 chatgpt.com
+0.0.0.0 ios.chat.openai.com
+0.0.0.0 oaistatic.com
+0.0.0.0 oaiusercontent.com
+0.0.0.0 platform.openai.com

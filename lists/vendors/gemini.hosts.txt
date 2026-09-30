@@ -1,0 +1,22 @@
+# AI Blocklist — Gemini — hosts file format
+# 15 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+# Hosts files match exact names only; use the AdGuard or domains list for subdomain coverage.
+
+0.0.0.0 aiplatform.googleapis.com
+0.0.0.0 alkali.generativelanguage.googleapis.com
+0.0.0.0 appsgenaiserver-pa.clients6.google.com
+0.0.0.0 assistant.google.com
+0.0.0.0 assistant.googleapis.com
+0.0.0.0 bard.google.com
+0.0.0.0 gemini.google.com
+0.0.0.0 gemini.gstatic.com
+0.0.0.0 generativelanguage.googleapis.com
+0.0.0.0 jnn-pa.googleapis.com
+0.0.0.0 opa-pa.clients6.google.com
+0.0.0.0 opa-pa.googleapis.com
+0.0.0.0 pro.gemini.google.com
+0.0.0.0 robinfrontend-pa.googleapis.com
+0.0.0.0 waa-pa.clients6.google.com

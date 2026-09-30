@@ -1,0 +1,15 @@
+# AI Blocklist — ChatGPT — plain domain list (each entry also covers its subdomains)
+# 9 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+
+api.openai.com
+auth.openai.com
+auth0.openai.com
+chat.openai.com
+chatgpt.com
+ios.chat.openai.com
+oaistatic.com
+oaiusercontent.com
+platform.openai.com

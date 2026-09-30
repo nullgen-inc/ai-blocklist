@@ -1,0 +1,9 @@
+# AI Blocklist — Grok — plain domain list (each entry also covers its subdomains)
+# 3 entries · updated 2026-09-30
+# Source: https://nullgen.ai/api/ai-vendors
+# Project: https://github.com/nullgen-inc/ai-blocklist
+# Maintained by Nullgen — https://nullgen.ai
+
+api.x.ai
+grok.com
+grok.x.ai

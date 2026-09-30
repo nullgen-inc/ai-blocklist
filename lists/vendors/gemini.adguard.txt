@@ -1,0 +1,24 @@
+! Title: AI Blocklist — Gemini
+! Description: Known generative-AI websites, apps, and API hosts, maintained by Nullgen. Excludes shared apexes (google.com, microsoft.com) that would break unrelated products.
+! Homepage: https://nullgen.ai
+! Source: https://github.com/nullgen-inc/ai-blocklist
+! License: CC0-1.0
+! Last modified: 2026-09-30
+! Expires: 1 day
+! Entries: 15
+
+||aiplatform.googleapis.com^
+||alkali.generativelanguage.googleapis.com^
+||appsgenaiserver-pa.clients6.google.com^
+||assistant.google.com^
+||assistant.googleapis.com^
+||bard.google.com^
+||gemini.google.com^
+||gemini.gstatic.com^
+||generativelanguage.googleapis.com^
+||jnn-pa.googleapis.com^
+||opa-pa.clients6.google.com^
+||opa-pa.googleapis.com^
+||pro.gemini.google.com^
+||robinfrontend-pa.googleapis.com^
+||waa-pa.clients6.google.com^
